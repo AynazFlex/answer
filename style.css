@@ -1,0 +1,21 @@
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.heading {
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: black;
+    background-color: pink;
+    transition: 1s;
+}
+.heading:hover {
+    transition: 1s;
+    color: pink;
+    background-color: black;
+}
